@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget_App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <div>
+            <img src="images/budget_logo.png " alt="" class="img1">
+        </div>
+        <div class="search_bar">
+            <input type="text" id="search" placeholder="Add your bugget">   
+            <button id="search_button">Add bugget</button> 
+        </div>
+    </div>
+
+    <div class="display">
+        <div class="money_avail">
+            <h3>Bugget Amount</h3><br>
+            <p>Rs:</p><p id="money_davail"></p>
+        </div>
+
+
+        <div class="money_spent">
+            <h3>Money Remaining</h3><br>
+            <p>Rs:</p><p id="money_dspent"></p>
+
+
+        </div>
+
+    </div>
+
+    <div class="amount_text">
+        <div class="amount_add">
+            <input type="text" id="description" placeholder="Description">
+            <input type="number" id="amount" placeholder="Amount">
+            <input placeholder="Date" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+            <select id="dropdownMenu">
+                <option value="option1">Utility bills</option>
+                <option value="option2">Resturant & Cafe</option>
+                <option value="option3">clothes & shopping</option>
+              </select>
+              
+            </div>
+    
+        </div>
+
+        <div class="button_add">
+            <button id="add_expense"  onclick="addTransaction()">Add Expense</button>
+
+        </div>
+
+    </div>
+
+    <div class="display_container">
+        <div class="expense">
+            <h2>Expense Details</h2>
+            <ul class="transction" id="transactionList"></ul>   
+        </div>
+
+    </div>
+
+
+
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>

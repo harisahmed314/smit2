@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    background-color: rgb(43, 238, 179);
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+
+.header{
+    background-color: yellow;
+    height: 87px;
+    border-radius: 19px;
+    margin-left: 25px;
+    margin-top: -9px;
+    margin-right: 25px;
+    
+    
+}
+.img1{
+    width: 119px;
+    height: 114px;
+    padding-left: 82px;
+    position: absolute;
+}
+
+.search_bar{
+    position: absolute;
+    padding-top: 48px;
+    padding-left: 469px;
+    
+}
+#search{
+    width: 374px;
+    height: 28px;
+    border: none;
+    border-radius: 4px;
+    margin-left: -53px;
+    color: black;
+    text-align: center;
+
+    
+}
+
+#search_button{
+    border: none;
+    width: 77px;
+    height: 28px;
+    border-radius: 3px;
+    background-color: lightgreen;
+}
+
+.display{
+    display: flex;
+}
+
+.money_avail{
+    height: 90px;
+    width: 180px;
+    background-color: rgb(155, 108, 230);
+    margin-top: 80px;
+    margin-left: 445px;
+    border-radius: 10px;
+}
+
+.money_avail h3{
+    margin-left: 20px;
+    padding-top: 12px;
+}
+
+.money_avail p{
+    margin-left: 50px;
+    line-height: 0px;
+    font-size: 25px;
+
+}
+
+#money_davail{
+    margin-left: 85px;
+    font-weight: 700;
+}
+
+
+
+
+.money_spent{
+    height: 90px;
+    width: 180px;
+    background-color: rgb(155, 108, 230);
+    margin-top: 80px;
+    margin-left: 210px;
+    border-radius: 10px;
+}
+
+.money_spent h3{
+    margin-left: 9px;
+    padding-top: 12px;
+}
+
+.money_spent p{
+    margin-left: 50px;
+    line-height: 0px;
+    font-size: 25px;
+
+}
+
+#money_dspent{
+    margin-left: 85px;
+    font-weight: 700;
+}
+
+
+.amount_add{
+    margin-top: 74px;
+    margin-left: 397px;
+}
+
+.amount_add #description {
+    width: 330px;
+    height: 22px;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+}
+
+.amount_add #amount {
+    width: 70px;
+    text-align: center;
+    height: 22px;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+}
+
+.amount_add #date {
+    width: 70px;
+    text-align: center;
+    height: 22px;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+}
+
+.button_add{
+    margin-top: -40px;
+    margin-left: 1095px;
+    position: absolute;
+
+}
+
+.button_add #add_expense{
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+#add_expense{
+    background-color: red;
+}
+
+
+.display_container{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: 227px;
+    line-height: 73px;
+}
+
+.expense{
+    color: #bd2c2e;
+    
+}
+
+.item_income h4{
+    margin-top: -7px;
+}
+
+.item_income p{
+    margin-top: -7px;
+}
+
+
+
+
+#dropdownMenu{
+    width: 147px;
+    margin-top: -38px;
+    position: absolute;
+    margin-left: 542px;
+    text-align: center;
+    display: flex;
+    background: #fff;
+    padding: 9px;
+    border-radius: 11px;
+    align-items: center;
+    border: none;
+
+}
+
+
+
+.transction button{
+    border: none;
+    background: red;
+    padding: 6px;
+    font: -webkit-control;
+    border-radius: 20px
+}
+
+
+.transction li{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 27px;
+    list-style: none;
+}
+
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
